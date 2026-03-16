@@ -494,9 +494,14 @@
   }
   .avatar-placeholder {
     width: 100%; height: 100%;
-    background: linear-gradient(160deg, #1a1a1a 0%, #2a2a2a 100%);
+    background: linear-gradient(160deg, #6c2ee0 0%, #2a2a2a 100%);
     display: flex; align-items: center; justify-content: center;
     font-size: 6rem;
+  }
+  .avatar-placeholder img {
+     width: 650px; 
+     height: 650px;
+    object-fit: fill;
   }
   .about-content .section-title { margin-bottom: 1.5rem; }
   .about-text {
